@@ -19,7 +19,7 @@ function HeroSection() {
     <section className="bg-white relative pt-[0px] mb-[0px] md:pt-[60px] md:mb-[20px]">
       {/* بک‌گراند SVG پایین */}
       {/* برای md به پایین */}
-      <div className="absolute bottom-0 left-0 w-full h-[214px] z-0 block md:hidden">
+      <div className="absolute bottom-0 left-0 w-full h-[300px] z-0 block md:hidden">
         <svg
           className="h-full w-full"
           viewBox="0 0 1440 174"
@@ -119,22 +119,22 @@ function HeroSection() {
         <Image
           src={message}
           alt="chat"
-          className="w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
+          className="social-icon w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
         />
         <Image
           src={whatsapp}
           alt="whatsapp"
-          className="w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
+          className="social-icon w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
         />
         <Image
           src={telegram}
           alt="telegram"
-          className="w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
+          className="social-icon w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
         />
         <Image
           src={instagram}
           alt="instagram"
-          className="w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
+          className="social-icon w-[37px] h-[37px] xl:w-[56px] xl:h-[56px]"
         />
       </div>
     </section>

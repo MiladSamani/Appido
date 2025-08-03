@@ -16,9 +16,9 @@
   --color-page: #fff;
   --color-nav: #f6f6f6;
 
-  /* 🔤 Fonts */
+  /* 🔤 Fonts
   --font-farsi: "Yekan Bakh Fa", sans-serif;
-  --font-english: "Aionik", sans-serif;
+  --font-english: "Aionik", sans-serif; */
 }
 
 
@@ -29,5 +29,19 @@
   :root {
     --color-background: #10161f;
     --color-foreground: #ffffff;
+  }
+}
+body {
+  font-family: var(--font-farsi-regular), sans-serif;
+}
+
+.font-bold {
+  font-family: var(--font-farsi-bold), sans-serif;
+}
+
+
+@media (max-width: 767px) {
+  .social-icon {
+    filter: invert(7%) sepia(90%) saturate(6163%) hue-rotate(189deg) brightness(11%) contrast(103%);
   }
 }
