@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  /* 🎨 Colors - Text */
+  --color-primary: #2d2d2d;
+  --color-secondary: #818c99;
+  --color-tertiary: #5f6368;
+  --color-accent: #004b87;
+  --color-primary-alternate: #fff;
+
+  /* 🎨 Colors - background */
+  --color-page: #fff;
+  --color-nav: #f6f6f6;
+
+  /* 🔤 Fonts */
+  --font-farsi: "Yekan Bakh Fa", sans-serif;
+  --font-english: "Aionik", sans-serif;
+}
+
+
+
+
+/* Optional dark mode variables */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #10161f;
+    --color-foreground: #ffffff;
+  }
+}
